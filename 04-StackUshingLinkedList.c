@@ -21,10 +21,9 @@ void push()
     printf("Enter data : ");
     if (scanf("%d", &newnode->data) != 1)
     {
-        printf("Invalid input!s\n");
+        printf("Invalid input! \n");
         free(newnode);
-        while (getchar() != '\n')
-            ;
+        while (getchar() != '\n');
 
         return;
     }
@@ -90,8 +89,7 @@ int main()
         if (scanf("%d", &choice) != 1)
         {
             printf("Invalid input! \n");
-            while (getchar() != '\n')
-                ;
+            while (getchar() != '\n');
             continue;
         }
 

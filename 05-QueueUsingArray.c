@@ -15,8 +15,7 @@ void enqueue()
     if (scanf("%d", &data) != 1)
     {
         printf("Invalid input!\n");
-        while (getchar() != '\n')
-            ;
+        while (getchar() != '\n');
         return;
     }
     if (front == -1)
@@ -78,8 +77,7 @@ int main()
         if (scanf("%d", &choice) != 1)
         {
             printf("Invalid input! Please enter a number between 1 to 5.\n");
-            while (getchar() != '\n')
-                ;
+            while (getchar() != '\n');
             continue;
         }
 

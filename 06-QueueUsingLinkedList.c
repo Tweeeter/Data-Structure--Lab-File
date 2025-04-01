@@ -22,10 +22,9 @@ void enqueue()
     printf("Enter data: ");
     if (scanf("%d", &newnode->data) != 1)
     {
-        printf("Invalid input!n");
+        printf("Invalid input! \n");
         free(newnode);
-        while (getchar() != '\n')
-            ;
+        while (getchar() != '\n');
         return;
     }
 
