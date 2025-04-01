@@ -75,8 +75,7 @@ int main()
         if (scanf("%d", &choice) != 1)
         {
             printf("Invalid input! \n");
-            while (getchar() != '\n')
-                ;
+            while (getchar() != '\n');
             continue;
         }
 

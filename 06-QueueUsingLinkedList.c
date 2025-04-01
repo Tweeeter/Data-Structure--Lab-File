@@ -102,8 +102,7 @@ int main()
         if (scanf("%d", &choice) != 1)
         {
             printf("Invalid input! Please enter a number between 1 to 5.\n");
-            while (getchar() != '\n')
-                ;
+            while (getchar() != '\n');
             continue;
         }
 
